@@ -423,9 +423,7 @@ def save():
         os.system('termux-setup-storage')
         os.system('cp id.txt /sdcard')
         print "Saved Successfully"
-        exit()
-    else:
-        print "Wrong"
+        time.sleep(4)
         exit()
 
 	
